@@ -8,22 +8,19 @@ int main() {
     int newPassword;
     int attempt = 3;
 
-    while(attempt = 3){
+    for(int i = attempt; i > 0; i--){
         cout << "Enter your username: ";
         cin >> newUsername;
         cout << "Enter your password: ";
         cin >> newPassword;
 
-            if(newUsername == username && newPassword == password){
-                cout << "Access granted."<<endl;
-            } else {
-                cout << "Access denied."<<endl;
-            }
+        if(newUsername == username && newPassword == password){
+            cout << "Access granted."<<endl;
+        } else {
+            cout << "Access denied."<<endl;
         }
-        attempt--;
-        
 
-    
+    }
 
     return 0;
 }
