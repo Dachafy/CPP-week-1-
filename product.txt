@@ -1,0 +1,7 @@
+
+Product and prices:
+Shampoo $17
+Bodywash $11
+Bag $10
+
+Total price is: 38
